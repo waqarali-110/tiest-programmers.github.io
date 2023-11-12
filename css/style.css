@@ -1,0 +1,291 @@
+body{
+    background-color: rgba(134, 128, 128, 0.3);
+} 
+body p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body h1{
+    font-size: 22px;
+}
+.img-fluid{
+    width:400px;
+    height: 300px;
+}
+.box-area {
+    width: 87%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 100px;}
+
+.left-box p{
+color: white;
+font-weight: 600;
+max-width: 50%;
+text-align: center;
+}
+
+.left-box{
+    background-color: blue;
+    z-index: 1;
+    border-radius: 30px;
+}
+.forget p{
+    margin-top: 4px;
+}
+/* .navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+} */
+.navbar-brand h1{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing:11px;
+}
+.navbar-brand h1 span{
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    letter-spacing: 3px;
+}
+.navbar-brand{
+    position: relative;
+}
+    .navbar-brand::before {
+        display: inline-block;
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 40px;
+        left: -20px;
+        background: url(../assets/images/dove-solid.svg);
+        background-repeat: no-repeat;
+    }
+    .first-login{
+        width: 20%;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: #007bff; /* Active link text color */
+    }
+
+    .navbar-nav .nav-link {
+        color: #000; /* Non-active link text color */
+    }
+
+    .first-row h1{
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-top: 30px;
+        color: lightblue;
+    }
+    .first-row h3{
+        font-size: 22px;
+        text-transform: capitalize;
+        margin-top: 30px;
+        color:white;
+        background-color:lightblue;
+        padding: 30px;
+        text-align: center;
+    }
+    .for-call img{
+       margin: auto;
+       left: 0;
+       right:0;
+       width: 06%;
+       margin-left: 47%;
+       border-radius: 50%;
+    }
+
+    .for-call img:hover{
+        transform: rotate(120deg);
+    }
+.for-call h4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.for-mail img{
+    margin: auto;
+    left: 0;
+    right:0;
+    width: 09%;
+    margin-left: 45.5%;
+    border-radius: 50%;
+}
+.for-mail img:hover{
+    transform: rotate(120deg); 
+}
+.for-mail h4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.for-whatsapp img{
+       margin: auto;
+       left: 0;
+       right:0;
+       width: 06%;
+       margin-left: 47%;
+       border-radius: 50%;
+    margin-bottom: 50px;
+    }
+    .for-whatsapp h4{
+        text-align: center;
+    }
+    .for-whatsapp img:hover{
+        transform: rotate(120deg);
+    }
+.about-us-row h1{
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-us-row p{
+    max-width: 100%;
+   text-align: center;
+   color: grey;
+}
+.about-us-row h2{
+    color: darkblue;
+    /* border-bottom: 2px dashed black; */
+text-align: center;
+    
+}
+.about-us-row .para-two{
+   max-width: 50%;  
+margin: 0 auto;
+}
+.about-us-row h2:hover{
+cursor: progress;
+}
+.about-us-row{
+    position: relative;  
+    padding-top: 60px;
+} 
+.about-us-sec-row:hover{
+outline: 1px dashed darkblue;  
+transform: rotate(02deg); 
+}
+.about-us-sec-row:hover:before{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 14%;
+    height: 4px;
+    left: 0px;
+    right: 0;
+    top: 95px;
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+/* swiper css */
+.swiper {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  .about-us-thrd-row:hover{
+    outline: 1px dashed darkblue;
+    transform: rotate(-02deg);
+  }
+  .about-us-thrd-row{
+    padding-top: 150px;
+    padding: 40px;
+  }
+/* css of tabs */
+#myTab{
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.tab-row img{
+    width: 100%;
+    height: 100%;
+}
+.first-tab-head{
+  color: darkblue;
+  max-width: 29%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.tab-container .row{
+row-gap: 30px;    
+}
+.colm-one img{
+    outline: 1px dashed black;
+}
+.colm-one img:hover{
+    outline: 4px dashed darkblue;
+    transform: rotate(-03deg);
+}
+.tab-sec-row h1{
+    text-align: center;
+    color: darkblue;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.secnd-tab-container .row{
+    row-gap: 30px;
+} 
+footer{
+    width: 100%;
+    bottom: 0;
+}
+.login-head{
+    text-align: center;
+    padding-top: 10px;
+    color: darkblue;
+}
+
